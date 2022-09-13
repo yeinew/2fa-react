@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+.qrcode {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.qrcode canvas {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.token-form {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.token-result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.token-result.false {
+  color: red;
+}
+
+.token-result.true {
+  color: green;
+}
